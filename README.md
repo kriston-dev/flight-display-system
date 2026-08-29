@@ -1,2 +1,2 @@
 # KZ-01
-Will hold the alpha prototype of the PFD and MFD
+#Contains all features combined to operate together. This branch acts as the rough draft for the main.
