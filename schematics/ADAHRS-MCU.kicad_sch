@@ -4121,6 +4121,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "barometer"
+		(exclude_from_sim no)
+		(at 452.12 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "160ebb1d-9e11-4ac5-829d-5694d71ad262")
+	)
+	(text "magnetometer"
+		(exclude_from_sim no)
+		(at 499.745 47.625 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23fed5ae-f6b3-4057-9431-8a396b5cd5bd")
+	)
+	(text "outside temp"
+		(exclude_from_sim no)
+		(at 405.765 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d43d70d8-9c26-48d0-be54-46ff35d1ec19")
+	)
 	(junction
 		(at 62.865 142.875)
 		(diameter 0)
@@ -4242,6 +4272,12 @@
 		(uuid "347db68c-b199-4f60-b842-4606863786f2")
 	)
 	(junction
+		(at 284.48 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34ebf393-c276-4892-97aa-65ef2a7ffc4d")
+	)
+	(junction
 		(at 43.815 230.505)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4278,10 +4314,22 @@
 		(uuid "41998989-fe0e-469b-bb94-b069c38ac166")
 	)
 	(junction
+		(at 248.285 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "426f40e7-0407-4275-9199-3d2b178b5ef8")
+	)
+	(junction
 		(at 168.275 233.045)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4832d063-82c3-4042-90fc-7a61a4503322")
+	)
+	(junction
+		(at 254.635 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49ff4487-e757-4f75-bb85-6106cd30faa8")
 	)
 	(junction
 		(at 170.815 175.895)
@@ -4290,10 +4338,22 @@
 		(uuid "4a44ba09-be36-4255-a64c-2888563ed808")
 	)
 	(junction
+		(at 278.13 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e6d7f45-e0c2-430b-b990-89b836cb9903")
+	)
+	(junction
 		(at 153.035 139.065)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53739f58-314d-478f-9040-adbb61123272")
+	)
+	(junction
+		(at 262.255 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53a5f5e4-2f81-49f8-adb4-9712084d35c7")
 	)
 	(junction
 		(at 147.955 368.935)
@@ -4342,6 +4402,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67c8cfef-6f14-4568-9921-8c0fc4a21ddd")
+	)
+	(junction
+		(at 241.3 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67f7e496-ce32-4966-a020-44fd06978b97")
 	)
 	(junction
 		(at 160.655 175.895)
@@ -4621,6 +4687,16 @@
 	)
 	(wire
 		(pts
+			(xy 216.535 204.47) (xy 216.535 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b19aac-87ba-4df9-b9ea-d237aebbe34e")
+	)
+	(wire
+		(pts
 			(xy 95.25 390.525) (xy 95.25 386.715)
 		)
 		(stroke
@@ -4628,6 +4704,26 @@
 			(type default)
 		)
 		(uuid "04c800d1-c8dc-4b60-997b-5ba14cf09adf")
+	)
+	(wire
+		(pts
+			(xy 471.805 203.2) (xy 471.805 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05369817-e888-4220-ac1c-c68c240f0bd0")
+	)
+	(wire
+		(pts
+			(xy 474.345 203.2) (xy 474.345 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0568a3a5-2596-4ade-8297-e34ea7566f94")
 	)
 	(wire
 		(pts
@@ -4691,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 466.725 162.56) (xy 466.725 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad741cc-b9f6-4f48-989a-a4391b580c52")
+	)
+	(wire
+		(pts
 			(xy 103.505 379.095) (xy 103.505 374.015)
 		)
 		(stroke
@@ -4718,16 +4824,6 @@
 			(type default)
 		)
 		(uuid "0b891e9e-6a2a-4ed9-ba43-fce7d879b62f")
-	)
-	(wire
-		(pts
-			(xy 254.635 204.47) (xy 254.635 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c4b8784-e9d1-45c6-b27a-0ecb8f26d90c")
 	)
 	(wire
 		(pts
@@ -4818,6 +4914,16 @@
 			(type default)
 		)
 		(uuid "16a49bc6-5253-4cbd-ba94-bd43f55e8e1e")
+	)
+	(wire
+		(pts
+			(xy 464.185 203.2) (xy 464.185 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f863d1-5200-4b3e-8db8-8e322b9e54a1")
 	)
 	(wire
 		(pts
@@ -5001,6 +5107,16 @@
 	)
 	(wire
 		(pts
+			(xy 464.185 162.56) (xy 464.185 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f6e444-73ee-4388-9751-8bc6d26d92de")
+	)
+	(wire
+		(pts
 			(xy 155.575 175.895) (xy 155.575 181.61)
 		)
 		(stroke
@@ -5081,6 +5197,26 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 243.84) (xy 284.48 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b18e7c-3efd-43b8-9bac-2f4b43fbe2d5")
+	)
+	(wire
+		(pts
+			(xy 234.315 243.84) (xy 234.315 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3147748e-7782-450c-b9a3-686ab73a9a53")
+	)
+	(wire
+		(pts
 			(xy 57.15 250.19) (xy 57.15 254.635)
 		)
 		(stroke
@@ -5128,6 +5264,16 @@
 			(type default)
 		)
 		(uuid "33a434ca-36ae-4c55-b1ed-16b0396bf3b2")
+	)
+	(wire
+		(pts
+			(xy 216.535 147.32) (xy 216.535 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d1678f-a7aa-4772-813f-f3508b74820d")
 	)
 	(wire
 		(pts
@@ -5191,6 +5337,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 245.745) (xy 241.3 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd33a4b-28df-49f5-bf5a-d050877d2e88")
+	)
+	(wire
+		(pts
 			(xy 165.735 203.2) (xy 165.735 212.09)
 		)
 		(stroke
@@ -5208,6 +5364,16 @@
 			(type default)
 		)
 		(uuid "3dbe35d2-9e3f-404c-85b8-d447ef1ae840")
+	)
+	(wire
+		(pts
+			(xy 278.13 240.03) (xy 278.13 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcd64bf-0023-440e-b9a6-b22b9a167009")
 	)
 	(wire
 		(pts
@@ -5251,6 +5417,16 @@
 	)
 	(wire
 		(pts
+			(xy 258.445 204.47) (xy 258.445 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4154699b-99c6-4474-8af9-5de9ec90207c")
+	)
+	(wire
+		(pts
 			(xy 165.735 212.09) (xy 181.61 212.09)
 		)
 		(stroke
@@ -5278,6 +5454,16 @@
 			(type default)
 		)
 		(uuid "424c5f7b-091f-4f7c-9dee-e9792d22ecdc")
+	)
+	(wire
+		(pts
+			(xy 231.775 147.32) (xy 231.775 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4280082f-2edd-4c5e-a1f3-2a665888b661")
 	)
 	(wire
 		(pts
@@ -5361,6 +5547,16 @@
 	)
 	(wire
 		(pts
+			(xy 235.585 204.47) (xy 235.585 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479a0d6b-e6bb-4730-84a0-bdc24fbf846f")
+	)
+	(wire
+		(pts
 			(xy 28.575 126.365) (xy 34.29 126.365)
 		)
 		(stroke
@@ -5368,6 +5564,16 @@
 			(type default)
 		)
 		(uuid "487b8d6d-65a5-4fea-bb05-505d3d4b83fa")
+	)
+	(wire
+		(pts
+			(xy 471.805 162.56) (xy 471.805 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4903619a-ca0c-489a-8d81-48e932c426c1")
 	)
 	(wire
 		(pts
@@ -5401,16 +5607,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.205 204.47) (xy 243.205 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb3a6ab-e51a-4e7f-95bd-137e3ee64d5b")
-	)
-	(wire
-		(pts
 			(xy 112.395 131.445) (xy 112.395 126.365)
 		)
 		(stroke
@@ -5431,6 +5627,16 @@
 	)
 	(wire
 		(pts
+			(xy 254.635 204.47) (xy 254.635 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51520d1e-167c-4ead-bf8d-632752308db5")
+	)
+	(wire
+		(pts
 			(xy 136.525 142.875) (xy 145.415 142.875)
 		)
 		(stroke
@@ -5441,6 +5647,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 243.84) (xy 248.285 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5201d764-a2f3-47f8-bc40-3728fcc9aa5a")
+	)
+	(wire
+		(pts
 			(xy 57.15 254.635) (xy 57.15 276.86)
 		)
 		(stroke
@@ -5448,6 +5664,16 @@
 			(type default)
 		)
 		(uuid "520ee7eb-15a3-413b-a11e-a207d127fa1f")
+	)
+	(wire
+		(pts
+			(xy 461.645 203.2) (xy 461.645 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532424bc-c2dd-4064-8834-c3da31cac669")
 	)
 	(wire
 		(pts
@@ -5621,6 +5847,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.315 243.84) (xy 241.3 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676acbc4-1c9d-46c1-9daf-a6c6ff7b2e95")
+	)
+	(wire
+		(pts
 			(xy 40.005 209.55) (xy 40.005 213.36)
 		)
 		(stroke
@@ -5771,6 +6007,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.285 243.84) (xy 250.825 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7212e6b2-e3b8-4455-8867-d5b3fe7c7fb4")
+	)
+	(wire
+		(pts
 			(xy 147.955 175.895) (xy 147.955 181.61)
 		)
 		(stroke
@@ -5808,16 +6054,6 @@
 			(type default)
 		)
 		(uuid "74e3ee35-2b78-4f17-90c3-cb335122ae6e")
-	)
-	(wire
-		(pts
-			(xy 258.445 204.47) (xy 258.445 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75db6548-055f-4811-a39c-e8a9b5694d7c")
 	)
 	(wire
 		(pts
@@ -5951,6 +6187,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.345 147.32) (xy 220.345 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc6af30-d6f4-438a-a169-265e6c7992f5")
+	)
+	(wire
+		(pts
 			(xy 95.25 390.525) (xy 103.505 390.525)
 		)
 		(stroke
@@ -5998,6 +6244,16 @@
 			(type default)
 		)
 		(uuid "844ee883-8538-40dc-8c08-d32743db4434")
+	)
+	(wire
+		(pts
+			(xy 231.775 204.47) (xy 231.775 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a86613-9432-4bb0-855b-877f97204448")
 	)
 	(wire
 		(pts
@@ -6211,6 +6467,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.265 203.2) (xy 469.265 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9499839b-10ee-43df-9be8-11f7555cfc22")
+	)
+	(wire
+		(pts
 			(xy 86.995 390.525) (xy 95.25 390.525)
 		)
 		(stroke
@@ -6251,6 +6517,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.205 204.47) (xy 243.205 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4f8899-c0e4-4d5b-bc46-64305e760955")
+	)
+	(wire
+		(pts
 			(xy 104.14 126.365) (xy 112.395 126.365)
 		)
 		(stroke
@@ -6258,16 +6534,6 @@
 			(type default)
 		)
 		(uuid "9aa8480f-17e8-4a91-ac1f-1cb7a3a3df23")
-	)
-	(wire
-		(pts
-			(xy 250.825 204.47) (xy 250.825 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aac0768-ca2d-4010-9827-cc874b4a87b3")
 	)
 	(wire
 		(pts
@@ -6391,6 +6657,26 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 245.745) (xy 290.83 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84fd894-b132-4d13-a9d4-0c488a530d3e")
+	)
+	(wire
+		(pts
+			(xy 254.635 243.84) (xy 262.255 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95115bd-297b-4f20-ac14-780257f33ed0")
+	)
+	(wire
+		(pts
 			(xy 163.195 233.045) (xy 168.275 233.045)
 		)
 		(stroke
@@ -6461,6 +6747,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.255 243.84) (xy 270.51 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bb1324-4894-462d-be7b-c7b0574da119")
+	)
+	(wire
+		(pts
 			(xy 158.115 177.8) (xy 168.275 177.8)
 		)
 		(stroke
@@ -6468,6 +6764,26 @@
 			(type default)
 		)
 		(uuid "b7bdfd67-0636-4b50-ad08-cf0eb3428ac7")
+	)
+	(wire
+		(pts
+			(xy 278.13 243.84) (xy 284.48 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83e54b0-8b7b-49c5-8d2a-85e3fb08b99e")
+	)
+	(wire
+		(pts
+			(xy 262.255 243.84) (xy 262.255 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86ad62c-e327-4c1d-8630-0ee27e745477")
 	)
 	(wire
 		(pts
@@ -6508,6 +6824,26 @@
 			(type default)
 		)
 		(uuid "ba97b7ad-f36c-41ed-a4f4-fb5dc348ae57")
+	)
+	(wire
+		(pts
+			(xy 248.285 243.84) (xy 248.285 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd1a69a-881e-4e38-b309-a668c2219e1d")
+	)
+	(wire
+		(pts
+			(xy 284.48 245.745) (xy 284.48 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc511183-d325-47ad-a6b4-0b8c93e88453")
 	)
 	(wire
 		(pts
@@ -6571,6 +6907,16 @@
 	)
 	(wire
 		(pts
+			(xy 466.725 203.2) (xy 466.725 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9de7476-07c5-4324-a9b3-7a97758de303")
+	)
+	(wire
+		(pts
 			(xy 93.345 166.37) (xy 93.345 168.275)
 		)
 		(stroke
@@ -6588,6 +6934,16 @@
 			(type default)
 		)
 		(uuid "cbfc2f2b-2ec8-46a4-bddb-7bd6b14148ac")
+	)
+	(wire
+		(pts
+			(xy 224.155 204.47) (xy 224.155 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca370b7-6197-4528-95ca-8807ef4b2db8")
 	)
 	(wire
 		(pts
@@ -6698,6 +7054,16 @@
 			(type default)
 		)
 		(uuid "d4f3bc14-fe53-4c5b-97cf-7f7fda763d76")
+	)
+	(wire
+		(pts
+			(xy 258.445 240.03) (xy 278.13 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d521468c-9664-4940-85ab-23dc2b8588ad")
 	)
 	(wire
 		(pts
@@ -6821,6 +7187,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.825 204.47) (xy 250.825 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfb786a-7bef-4fcb-ae79-f20b94e92bad")
+	)
+	(wire
+		(pts
 			(xy 85.725 201.93) (xy 85.725 209.55)
 		)
 		(stroke
@@ -6858,6 +7234,16 @@
 			(type default)
 		)
 		(uuid "dfdfeb58-a71d-4295-80ae-42dee187a56b")
+	)
+	(wire
+		(pts
+			(xy 227.965 204.47) (xy 227.965 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e673d6-bafe-410f-90dd-54252f273309")
 	)
 	(wire
 		(pts
@@ -6918,6 +7304,16 @@
 			(type default)
 		)
 		(uuid "e588eaaa-88e9-419c-8ae2-8b91e8eced10")
+	)
+	(wire
+		(pts
+			(xy 270.51 243.84) (xy 270.51 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b8d087-9e5f-428e-9ff1-e3593cdd04f9")
 	)
 	(wire
 		(pts
@@ -7041,6 +7437,26 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 243.84) (xy 278.13 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2437ce6-806a-4037-b71c-4278ce7f5d3c")
+	)
+	(wire
+		(pts
+			(xy 247.015 147.32) (xy 247.015 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2745707-0fc2-4a3d-a775-95db940a9593")
+	)
+	(wire
+		(pts
 			(xy 97.155 180.34) (xy 97.155 184.15)
 		)
 		(stroke
@@ -7088,6 +7504,16 @@
 			(type default)
 		)
 		(uuid "f61b3905-cb24-4bd3-b98b-f6e135f2ffcb")
+	)
+	(wire
+		(pts
+			(xy 239.395 204.47) (xy 239.395 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b076a6-c2c6-4875-9d0b-e15665035511")
 	)
 	(wire
 		(pts
@@ -7149,9 +7575,19 @@
 		)
 		(uuid "fdac7ccc-fd88-44f6-8dab-deca9bfa29ca")
 	)
+	(wire
+		(pts
+			(xy 254.635 243.84) (xy 254.635 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feae2f6f-c1ae-44ec-b4d1-bc346055eabe")
+	)
 	(global_label "MCU SPI MOSI{slash}rDIN"
 		(shape input)
-		(at 254.635 222.25 270)
+		(at 227.965 222.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7161,7 +7597,7 @@
 		)
 		(uuid "0154ec32-9a97-4d3f-82c1-f9e3eb621b8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.635 244.2248 90)
+			(at 227.965 244.2248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,31 +7607,9 @@
 			)
 		)
 	)
-	(global_label "MCU GPIO{slash}DRDY"
-		(shape input)
-		(at 456.565 162.56 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01788192-cad7-48d6-be46-909e2d3ed5a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 456.565 143.8509 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU SPI MISO{slash}DOUT"
 		(shape input)
-		(at 258.445 222.25 270)
+		(at 224.155 222.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7205,7 +7619,7 @@
 		)
 		(uuid "0555bc4d-3bb7-44a9-b790-9f5a62e5c37f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.445 245.1319 90)
+			(at 224.155 245.1319 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,9 +7629,75 @@
 			)
 		)
 	)
-	(global_label "GPIO #2"
+	(global_label "MCU NHET0{slash}EN"
 		(shape input)
-		(at 459.105 162.56 90)
+		(at 474.345 215.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "058a7bdc-82ac-459b-b45e-be9ee751019a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 474.345 233.7018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}SSA"
+		(shape input)
+		(at 460.375 79.375 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e6f29dd-3380-4d07-91ab-3a803e9412e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 443.0569 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU MISO GYRO Z"
+		(shape input)
+		(at 290.83 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26c2d27a-8189-438f-bc94-05e4357a493b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.83 266.4497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}rSTART"
+		(shape input)
+		(at 496.57 143.51 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7225,9 +7705,97 @@
 			)
 			(justify left)
 		)
-		(uuid "2a17fe6c-be2d-4683-b83b-064ed8d1a034")
+		(uuid "2767998e-8201-4b24-83ec-38e570374c0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 459.105 151.6524 90)
+			(at 496.57 123.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU NHET2{slash}EN"
+		(shape input)
+		(at 469.265 215.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "284d22b2-c1f2-4b8f-81fd-adc8df261ac6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 469.265 233.7018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU MOSI GYRO Y"
+		(shape input)
+		(at 262.255 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "306744dc-9efc-4aa2-910e-6fa6e73c1c5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.255 266.3288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SPI MISO"
+		(shape input)
+		(at 457.835 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31f81eef-e0b4-47ff-acc1-51a79fb9e229")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 441.1822 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO 0 INT2"
+		(shape input)
+		(at 454.025 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bd2284a-e197-4f82-88c7-1560be6d4a13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 454.025 142.8229 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7807,7 @@
 	)
 	(global_label "MCU SPI SCLK"
 		(shape input)
-		(at 250.825 222.25 270)
+		(at 457.835 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7247,9 +7815,9 @@
 			)
 			(justify right)
 		)
-		(uuid "90305597-8865-4984-9339-05f49b9e8d4d")
+		(uuid "3e484b04-2cc7-445e-a7e0-5c06a5932d3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.825 239.0842 90)
+			(at 441.0008 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +7827,271 @@
 			)
 		)
 	)
-	(global_label "MCU SPI{slash}CS"
+	(global_label "MCU POWER SYSTEM LOGIC"
+		(shape input)
+		(at 422.275 132.715 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "405bd658-3918-4907-b7ee-039923882358")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 393.2852 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}EOC-A"
+		(shape input)
+		(at 465.455 59.055 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "408c5774-f2a4-4d15-9349-51d343a6422f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 445.234 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}EOC-D"
+		(shape input)
+		(at 466.09 55.245 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4523e0b8-01a5-4443-9c49-5f3c9c7ba28b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 445.6876 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU NHET1{slash}EN"
+		(shape input)
+		(at 471.805 215.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bcb59a7-064e-40cf-8c86-ae5380240139")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 471.805 233.7018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU MOSI ADXL"
+		(shape input)
+		(at 231.775 147.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fcb75fc-1e1e-42ce-958c-b9662513ecca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.775 129.1553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SCLK ADXL"
+		(shape input)
+		(at 216.535 147.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54a015c4-5398-4545-b8ba-8d47a7bcdb95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.535 128.9739 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}SSA"
+		(shape input)
+		(at 413.385 53.975 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59104f3c-010d-4a3c-8a48-7dca85605a8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 396.0669 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO 1 INT1"
+		(shape input)
+		(at 456.565 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ff6efaf-686e-41a1-baec-5157d036f35f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 456.565 142.8229 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}DRDY"
+		(shape input)
+		(at 499.11 143.51 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76d406ae-9aa4-40be-968f-b9e1110d35a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 499.11 124.8009 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SPI MOSI"
+		(shape input)
+		(at 457.835 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78adc27c-8658-4bde-84f7-8b391f0b9d1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 441.1822 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU MISO GYRO Y"
+		(shape input)
+		(at 284.48 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a3e83ba-e504-4392-97be-8182f8bbd4c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.48 266.3288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SCLK GYRO Y"
+		(shape input)
+		(at 241.3 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c3990c0-98d5-4ae8-9eac-24c81edb53d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.3 266.5102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU gyro x CS"
 		(shape input)
 		(at 243.205 222.25 270)
 		(fields_autoplaced yes)
@@ -7269,9 +8101,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9ecc3bf3-cb58-4e5c-a625-83f637d47229")
+		(uuid "7c4b3f75-810f-4c93-b9df-ffd9d722acbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.205 237.149 90)
+			(at 243.205 239.7493 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,9 +8113,97 @@
 			)
 		)
 	)
-	(global_label "GPIO #3"
+	(global_label "MCU MISO GYRO X "
 		(shape input)
-		(at 461.645 162.56 90)
+		(at 278.13 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f91a35c-dd26-4099-8376-dc1ad2165179")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.13 267.4173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SPI SCLK"
+		(shape input)
+		(at 231.775 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90305597-8865-4984-9339-05f49b9e8d4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.775 239.0842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU gyro z CS"
+		(shape input)
+		(at 235.585 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9630c435-0fed-46d9-86f7-0ea85f10934d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.585 239.7493 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}SSD"
+		(shape input)
+		(at 413.385 51.435 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9aac715e-9ac1-4d81-aa36-7f33e7c03c84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.8855 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO 2 DRDY"
+		(shape input)
+		(at 459.105 162.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7291,9 +8211,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c72548c2-17f9-4ce7-ba67-08299437e86f")
+		(uuid "9c3c2b9a-dac8-401c-bb7c-fdc3afcac20c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 461.645 151.6524 90)
+			(at 459.105 142.0367 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,9 +8223,31 @@
 			)
 		)
 	)
-	(global_label "MCU GPIO{slash}rSTART"
+	(global_label "MCU MOSI GYRO X "
 		(shape input)
-		(at 454.025 162.56 90)
+		(at 254.635 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2b322d4-8dad-4144-80a0-d2c26a0741b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.635 267.4173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU CS ADXL"
+		(shape input)
+		(at 220.345 147.32 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7313,14 +8255,190 @@
 			)
 			(justify left)
 		)
-		(uuid "d986f919-4b42-4f8b-900e-98abe21004e9")
+		(uuid "aaac7174-5bb2-4ed0-881e-5d0f32ff5e6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 454.025 142.46 90)
+			(at 220.345 131.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SCLK GYRO X"
+		(shape input)
+		(at 248.285 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb5687f9-403a-44e5-b661-eba7e92a7fa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.285 266.6311 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU NHET3{slash}EN"
+		(shape input)
+		(at 466.725 215.9 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d61e97fa-7971-4e18-a5eb-af5d636b4859")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 466.725 233.7018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU MISO ADXL"
+		(shape input)
+		(at 247.015 147.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb30c374-116b-49ac-8cfa-377542a08c4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.015 129.1553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU all analog SPI{slash}CS"
+		(shape input)
+		(at 216.535 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4eee847-fa0c-4000-a1c7-8f2b9b121662")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.535 247.9738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}SSD"
+		(shape input)
+		(at 460.375 76.835 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f84ef07a-e7d5-43f7-96aa-b29b86dcb818")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 442.8755 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU MOSI GYRO Z"
+		(shape input)
+		(at 270.51 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa9d4113-a89f-4423-9ab3-f433542601a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.51 266.4497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SCLK GYRO Y"
+		(shape input)
+		(at 234.315 245.745 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd9080e4-b210-4a0d-9d50-d3940511d1de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.315 266.5102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU gyro y CS"
+		(shape input)
+		(at 239.395 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe2da0bb-1968-4f8c-9ed7-ad6289423ca5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.395 239.6888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7389,72 +8507,6 @@
 			(project "ADAHRS-MCU"
 				(path "/8ab9f6ba-e91f-4416-bc94-d3dee568dc5e"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 38.735 303.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02a13f41-1cca-47cf-813c-2ea0b989a949")
-		(property "Reference" "#PWR010"
-			(at 38.735 299.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V5"
-			(at 40.64 304.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.735 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.735 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 38.735 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ea484cc-92fd-44ad-afd9-58807ae394bf")
-		)
-		(instances
-			(project "ADAHRS-MCU"
-				(path "/8ab9f6ba-e91f-4416-bc94-d3dee568dc5e"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
