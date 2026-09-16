@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "adahrs-accel-v1_00")
-		(rev "A")
-		(comment 1 "Will be integrated with custom SBC")
+		(rev "B")
+		(comment 1 "I need to integrate a crystal osc")
 	)
 	(lib_symbols
 		(symbol "ADXL355BEZ-RL7_1"
@@ -1482,7 +1482,7 @@
 			)
 		)
 	)
-	(global_label "ADXL_CS"
+	(global_label "MCU CS"
 		(shape input)
 		(at 172.72 132.08 0)
 		(fields_autoplaced yes)
@@ -1494,7 +1494,7 @@
 		)
 		(uuid "6bc00210-6769-4c67-ac51-4d3ae7742f1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.7485 132.08 0)
+			(at 183.2042 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1526,7 @@
 			)
 		)
 	)
-	(global_label "ADXL_SCLK"
+	(global_label "MCU SCLK"
 		(shape input)
 		(at 172.72 127 0)
 		(fields_autoplaced yes)
@@ -1538,7 +1538,7 @@
 		)
 		(uuid "953db102-82ac-4154-93b6-fab5e9f65e12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0466 127 0)
+			(at 185.5023 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1548,7 @@
 			)
 		)
 	)
-	(global_label "ADXL_MOSI"
+	(global_label "MCU MOSI"
 		(shape input)
 		(at 172.72 121.92 0)
 		(fields_autoplaced yes)
@@ -1560,7 +1560,7 @@
 		)
 		(uuid "bea8f505-5b8a-4d38-9cf8-3cf7971301a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8652 121.92 0)
+			(at 185.3209 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 			)
 		)
 	)
-	(global_label "ADXL_MISO"
+	(global_label "MCU MISO"
 		(shape input)
 		(at 173.355 116.84 0)
 		(fields_autoplaced yes)
@@ -1582,7 +1582,7 @@
 		)
 		(uuid "e9d58f37-e6c9-4564-b166-7d65d8c66226")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.5002 116.84 0)
+			(at 185.9559 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
