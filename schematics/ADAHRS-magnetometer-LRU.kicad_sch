@@ -7,9 +7,10 @@
 	(title_block
 		(title "magnetic header")
 		(date "2026-08-31")
-		(rev "-")
+		(rev "6")
 		(comment 1 "Will be a daughterboard due to the need of distance from other magnetic field interference.\n")
 		(comment 2 "The output of each 2kΩ needs an RFI filter")
+		(comment 3 "Check the CLKSEL and RESET on the ADC connected to the 3.3 from MCU")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:OPA365xxDBV"
@@ -5607,7 +5608,7 @@
 		)
 		(uuid "ffbc6ec7-975e-418b-9ec3-88befb0ab4d6")
 	)
-	(global_label "MCU GND"
+	(global_label "MCU DGND"
 		(shape input)
 		(at 257.175 202.565 180)
 		(fields_autoplaced yes)
@@ -5619,7 +5620,7 @@
 		)
 		(uuid "475a33c9-2a98-4f00-b41d-3b22b58600b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.2998 202.565 0)
+			(at 244.0298 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,29 +5630,7 @@
 			)
 		)
 	)
-	(global_label "+3.3v from MCU"
-		(shape input)
-		(at 351.79 216.535 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "609efb2d-e3fa-405a-bc27-9d8c35bc687b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 370.6803 216.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU SPI MISO"
+	(global_label "MCU SPI MISO{slash}DOUT"
 		(shape input)
 		(at 257.175 226.695 180)
 		(fields_autoplaced yes)
@@ -5663,7 +5642,7 @@
 		)
 		(uuid "6c1d717a-944c-439e-9fb4-087b721f84af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.5222 226.695 0)
+			(at 234.2931 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5652,7 @@
 			)
 		)
 	)
-	(global_label "MCU SPI MOSI"
+	(global_label "MCU SPI MOSI{slash}rDIN"
 		(shape input)
 		(at 257.175 231.14 180)
 		(fields_autoplaced yes)
@@ -5685,7 +5664,7 @@
 		)
 		(uuid "88dd4220-42ff-4189-bc75-f1468892c7bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.5222 231.14 0)
+			(at 235.2002 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5674,7 @@
 			)
 		)
 	)
-	(global_label "MCU GPIO{slash}interupt input"
+	(global_label "MCU GPIO{slash}DRDY"
 		(shape input)
 		(at 257.175 217.805 180)
 		(fields_autoplaced yes)
@@ -5707,7 +5686,7 @@
 		)
 		(uuid "a64a4602-0d6d-4a6e-a686-45844f3325d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.2414 217.805 0)
+			(at 238.4659 217.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,29 +5718,7 @@
 			)
 		)
 	)
-	(global_label "+3.3v from MCU"
-		(shape input)
-		(at 239.395 206.375 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0958e5b-2379-42a7-83b7-b437ec655625")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.5047 206.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU GPIO{slash}START"
+	(global_label "MCU GPIO{slash}rSTART"
 		(shape input)
 		(at 257.175 213.995 180)
 		(fields_autoplaced yes)
@@ -5773,7 +5730,7 @@
 		)
 		(uuid "d9933ae7-a8e4-4fe1-b389-0f29a64a70bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.8612 213.995 0)
+			(at 237.075 213.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5784,7 @@
 			)
 		)
 	)
-	(global_label "MCU SPI chip-select"
+	(global_label "MCU SPI{slash}CS"
 		(shape input)
 		(at 257.175 210.185 180)
 		(fields_autoplaced yes)
@@ -5839,7 +5796,7 @@
 		)
 		(uuid "f77f2e7c-146e-46aa-be99-949d16f50e87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.8698 210.185 0)
+			(at 242.276 210.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10229,6 +10186,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 351.79 216.535 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8dac08f-4663-4b77-bc3d-c2193c98b2da")
+		(property "Reference" "#PWR037"
+			(at 347.98 216.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3v3"
+			(at 351.79 217.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 216.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 216.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 351.79 216.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df4118fc-ff40-4785-87b4-59edb2b9d826")
+		)
+		(instances
+			(project "ADAHRS-magnetometer-LRU"
+				(path "/e09c11d5-dbc8-40db-913b-60a97a341fc2"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 330.2 109.22 180)
 		(unit 1)
@@ -11650,6 +11673,72 @@
 			(project "ADAHRS-magnetic-LRU-v1_00"
 				(path "/e09c11d5-dbc8-40db-913b-60a97a341fc2"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 239.395 206.375 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe67a5de-1920-4f70-94f1-6bf46379069c")
+		(property "Reference" "#PWR038"
+			(at 243.205 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3v3"
+			(at 238.76 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 239.395 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 239.395 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 239.395 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3f59caa-809f-4d64-8483-f459e0a0fdb0")
+		)
+		(instances
+			(project "ADAHRS-magnetometer-LRU"
+				(path "/e09c11d5-dbc8-40db-913b-60a97a341fc2"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
