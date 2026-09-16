@@ -4721,6 +4721,16 @@
 	)
 	(wire
 		(pts
+			(xy 254.635 204.47) (xy 254.635 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4b8784-e9d1-45c6-b27a-0ecb8f26d90c")
+	)
+	(wire
+		(pts
 			(xy 90.805 264.16) (xy 90.805 264.795)
 		)
 		(stroke
@@ -5391,6 +5401,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.205 204.47) (xy 243.205 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb3a6ab-e51a-4e7f-95bd-137e3ee64d5b")
+	)
+	(wire
+		(pts
 			(xy 112.395 131.445) (xy 112.395 126.365)
 		)
 		(stroke
@@ -5791,6 +5811,16 @@
 	)
 	(wire
 		(pts
+			(xy 258.445 204.47) (xy 258.445 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75db6548-055f-4811-a39c-e8a9b5694d7c")
+	)
+	(wire
+		(pts
 			(xy 65.405 250.19) (xy 68.58 250.19)
 		)
 		(stroke
@@ -6061,6 +6091,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.105 162.56) (xy 459.105 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b455423-18da-4d1f-b4b6-cbd6d93dc59c")
+	)
+	(wire
+		(pts
 			(xy 107.315 255.27) (xy 112.395 255.27)
 		)
 		(stroke
@@ -6221,6 +6261,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.825 204.47) (xy 250.825 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aac0768-ca2d-4010-9827-cc874b4a87b3")
+	)
+	(wire
+		(pts
 			(xy 78.105 242.57) (xy 78.105 251.46)
 		)
 		(stroke
@@ -6328,6 +6378,16 @@
 			(type default)
 		)
 		(uuid "a34844fe-c088-4ec1-a361-57af331dabff")
+	)
+	(wire
+		(pts
+			(xy 456.565 162.56) (xy 456.565 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a529b3b4-22a7-4447-a23d-860e94a0aa17")
 	)
 	(wire
 		(pts
@@ -6961,6 +7021,16 @@
 	)
 	(wire
 		(pts
+			(xy 461.645 162.56) (xy 461.645 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ec4844-37c9-4b95-9355-86d43f306113")
+	)
+	(wire
+		(pts
 			(xy 158.115 233.045) (xy 163.195 233.045)
 		)
 		(stroke
@@ -7061,6 +7131,16 @@
 	)
 	(wire
 		(pts
+			(xy 454.025 162.56) (xy 454.025 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9bc612-b014-4e3a-b3e2-0fb32c43826f")
+	)
+	(wire
+		(pts
 			(xy 40.64 271.78) (xy 40.64 287.02)
 		)
 		(stroke
@@ -7068,6 +7148,182 @@
 			(type default)
 		)
 		(uuid "fdac7ccc-fd88-44f6-8dab-deca9bfa29ca")
+	)
+	(global_label "MCU SPI MOSI{slash}rDIN"
+		(shape input)
+		(at 254.635 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0154ec32-9a97-4d3f-82c1-f9e3eb621b8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.635 244.2248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}DRDY"
+		(shape input)
+		(at 456.565 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01788192-cad7-48d6-be46-909e2d3ed5a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 456.565 143.8509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SPI MISO{slash}DOUT"
+		(shape input)
+		(at 258.445 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0555bc4d-3bb7-44a9-b790-9f5a62e5c37f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.445 245.1319 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO #2"
+		(shape input)
+		(at 459.105 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a17fe6c-be2d-4683-b83b-064ed8d1a034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 459.105 151.6524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SPI SCLK"
+		(shape input)
+		(at 250.825 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90305597-8865-4984-9339-05f49b9e8d4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.825 239.0842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU SPI{slash}CS"
+		(shape input)
+		(at 243.205 222.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ecc3bf3-cb58-4e5c-a625-83f637d47229")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.205 237.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO #3"
+		(shape input)
+		(at 461.645 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c72548c2-17f9-4ce7-ba67-08299437e86f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 461.645 151.6524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU GPIO{slash}rSTART"
+		(shape input)
+		(at 454.025 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d986f919-4b42-4f8b-900e-98abe21004e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 454.025 142.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
