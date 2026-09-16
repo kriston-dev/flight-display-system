@@ -7,7 +7,7 @@
 	(title_block
 		(title "Barometer")
 		(date "09/13/26")
-		(rev "-")
+		(rev "A")
 		(comment 1 "/SSA Has weak internal pullups; for noise immunity 10K-47K pull-up to Vs is recommended")
 		(comment 2 "EOC connect to the MCU GPIO interrupt input to give a positive 5 microfared when finished")
 	)
@@ -857,7 +857,7 @@
 			)
 		)
 	)
-	(global_label "MCU SPI SCLK"
+	(global_label "MCU SPI SCLK BAROMETER"
 		(shape input)
 		(at 164.465 85.725 0)
 		(fields_autoplaced yes)
@@ -869,7 +869,7 @@
 		)
 		(uuid "2ccb5241-4cd7-4f74-bf2c-81442b528fc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2992 85.725 0)
+			(at 193.2129 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +879,7 @@
 			)
 		)
 	)
-	(global_label "MCU SPI MISO"
+	(global_label "MCU SPI MISO BAROMETER"
 		(shape input)
 		(at 108.585 86.995 180)
 		(fields_autoplaced yes)
@@ -891,7 +891,7 @@
 		)
 		(uuid "3c4693e3-e758-46ea-b6d6-ddfa7e9e8b0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.9322 86.995 0)
+			(at 80.0185 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +967,7 @@
 			)
 		)
 	)
-	(global_label "MCU SPI MOSI"
+	(global_label "MCU SPI MOSI BAROMETER"
 		(shape input)
 		(at 164.465 89.535 0)
 		(fields_autoplaced yes)
@@ -979,7 +979,7 @@
 		)
 		(uuid "a5a48c5b-c9ec-4b27-9961-ab871a9faece")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.1178 89.535 0)
+			(at 193.0315 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1073,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 198.755 88.265 0)
 			(effects
 				(font
@@ -1140,7 +1140,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 116.84 103.505 90)
 			(effects
 				(font
@@ -1266,15 +1266,15 @@
 		(dnp no)
 		(uuid "67c0ac9a-8d0a-43a1-8274-b493af782a98")
 		(property "Reference" "R4"
-			(at 73.025 83.82 0)
+			(at 73.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 73.025 86.36 0)
+		(property "Value" "10kΩ"
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
