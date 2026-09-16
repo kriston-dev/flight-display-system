@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "adahrs-accel-v1_00")
-		(rev "-")
+		(rev "A")
 		(comment 1 "Will be integrated with custom SBC")
 	)
 	(lib_symbols
