@@ -5,8 +5,6 @@ MCU
 
 PCB needed to be revised:
 
-Accelerometer
-
 barometer
 
 magnetometer
