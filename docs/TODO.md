@@ -11,7 +11,5 @@ barometer
 
 magnetometer
 
-outside tmep
-
 mcu
 
