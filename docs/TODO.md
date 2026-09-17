@@ -1,6 +1,5 @@
 PCB needing to be finished in ADAHRS:
 
-MCU
 
 I need to add pmic instead of assuming generic label of +5v and -5v due to the idea of power bus giving 24v
 
