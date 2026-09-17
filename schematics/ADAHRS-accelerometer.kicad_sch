@@ -7,8 +7,7 @@
 	(title_block
 		(title "accelerometer")
 		(date "08/31/26")
-		(rev "C")
-		(comment 1 "I need to integrate a crystal osc")
+		(rev "D")
 	)
 	(lib_symbols
 		(symbol "ADXL355BEZ-RL7_1"
@@ -951,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.695 92.71) (xy 143.51 92.71)
+			(xy 95.25 92.71) (xy 143.51 92.71)
 		)
 		(stroke
 			(width 0)
@@ -981,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.695 92.71) (xy 99.695 116.84)
+			(xy 95.25 92.71) (xy 95.25 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1391,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.695 116.84) (xy 135.255 116.84)
+			(xy 95.25 116.84) (xy 135.255 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1428,7 @@
 		)
 		(uuid "f5a29e5a-4ac9-48b2-bc7e-92910e689e26")
 	)
-	(global_label "MCU GPIO 2 INT2"
+	(global_label "MCU GPIO 1 INT2"
 		(shape input)
 		(at 120.015 113.03 180)
 		(fields_autoplaced yes)
@@ -1451,7 +1450,7 @@
 			)
 		)
 	)
-	(global_label "MCU GPIO 1 INT1"
+	(global_label "MCU GPIO 0 INT1"
 		(shape input)
 		(at 120.015 107.95 180)
 		(fields_autoplaced yes)
@@ -1495,7 +1494,7 @@
 			)
 		)
 	)
-	(global_label "MCU GPIO 0 DRDY"
+	(global_label "MCU GPIO DRDY accel"
 		(shape input)
 		(at 120.015 102.87 180)
 		(fields_autoplaced yes)
@@ -1507,7 +1506,7 @@
 		)
 		(uuid "806b6e7c-e5a9-4ca8-9085-db82b3516cd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.4917 102.87 0)
+			(at 95.6212 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1659,7 @@
 		(dnp no)
 		(uuid "1775c8db-d96f-40e0-be52-c20625c4f0bc")
 		(property "Reference" "C7"
-			(at 95.885 114.3 90)
+			(at 99.06 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1667,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 95.885 116.84 90)
+			(at 99.06 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
