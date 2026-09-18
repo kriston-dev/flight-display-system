@@ -1,13 +1,17 @@
-PCB needing to be finished in ADAHRS:
+My to do list for the ADAHRS LRU
+	
+	PCB needed to be revised:
+	mcu
 
-DEU LRU
-
-PCB needed to be revised:
-
-mcu
-
-DEU LRU
-
-PCB finalized:
-
-DEU LRU
+	END
+	
+	PCB needing to be finalized:
+	accel
+	gyro
+	outside temp
+	tms570ls
+	barometer
+	Gyro x, y, & z
+	magnetometer & ADC
+	
+	END
